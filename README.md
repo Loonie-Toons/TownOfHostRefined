@@ -5509,7 +5509,7 @@ Optionally, the [Snitch](#Snitch) can also recieve Workhorse.
 <p>This mod is not affiliated with Among Us or Innersloth LLC, and the content contained therein is not endorsed or otherwise sponsored by Innersloth LLC.<br>
 Portions of the materials contained herein are property of Innersloth LLC. © Innersloth LLC.</p>
 
-For developers wondering why there's no available source code, it was not uploaded to prevent code theft by the maintainer and contributors of [Town of Host Enhanced](https://github.com/0xDrMoe/TownofHost-Enhanced).
+For anyone wondering why there's no available source code, it was not uploaded to prevent code theft by the maintainer and contributors of [Town of Host Enhanced](https://github.com/0xDrMoe/TownofHost-Enhanced).
 The maintainer is incredibly malicious and manipulative, so I have to not upload the source code for my own and the mod's safety.</p>
 <p>I am sorry for any inconvenience this may have caused.</p>
 
