@@ -2515,7 +2515,7 @@ Your portable vitals cannot be accessed during a comms sabotage.<br>
 
 <img align="right" width="" height="200" src="Images/Crewmates/Seer.png">
 
-__Faction__: Crewmate (Power)<br>
+__Faction__: Crewmate (Support)<br>
 __Base__: Crewmate<br>
 __Ability__: Compare alignments<br>
 __Indicator/Symbols__: None<br>
