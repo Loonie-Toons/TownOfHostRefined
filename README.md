@@ -26,6 +26,8 @@ For a small list of changes made to improve the mod, here's a few:
 - Renamed Jailer back to [Jailor](#Jailor) (for better English and game accuracy)
 - Renamed Vigilante to [Warrior](#Warrior) (due to conflicting role names)
 - Renamed Taskinator to [Unabomber](#Unabomber) (better name choice)
+- Renamed Keeper to [Sentinel](#Sentinel) (better name choice)
+- Renamed Guess Master to [Inquisitor](#Inquisitor) (role name consistency)
 - Renamed Telecommunication to [Monitor](#Monitor) (shorter name)
 - Reworked min and max Neutral settings
    - Each Neutral type gets their own min and max settings
@@ -47,14 +49,14 @@ For a small list of changes made to improve the mod, here's a few:
   - Old Werewolf has been renamed to [Harbinger](#Harbinger)
 - Percentage system for roles rather than the basic ON/OFF system
 
-# Roles (263)
+# Roles (267)
 | Impostor (68) | Crewmate (59) | Crewmate Killing (15) | Neutral Benign (11) | Neutral Evil (21) | Neutral Killing (27) | Madmate (4) | Modifier (62) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [Agent](#Agent) | [Addict](#Addict) | [Bastion](#Bastion) | [Amnesiac](#Amnesiac) | [Advocate](#Advocate) | [Agitator](#Agitator) | [Convict](#Convict) | [Antidote](#Antidote) |
 | [Anonymous](#Anonymous) | [Alchemist](#Alchemist) | [Bodyguard](#Bodyguard) | [Follower](#Follower) | [Carnivore](#Carnivore) | [Arsonist](#Arsonist) | [Crewpostor](#Crewpostor) | [Autopsy](#Autopsy) |
 | [Arrogance](#Arrogance) | [Aurial](#Aurial) | [Crusader](#Crusader) | [Hater](#Hater) | [Collector](#Collector) | [Bandit](#Bandit) | [Parasite](#Parasite) | [Avenger](#Avenger) |
 | [Assassin](#Assassin) | [Benefactor](#Benefactor) | [Deceiver](#Deceiver) | [Lawyer](#Lawyer) | [Cultist](#Cultist) | [Blood Knight](#Blood-Knight) | [Refugee](#Refugee) | [Aware](#Aware) |
-| [Berserker](#Berserker) | Captain | [Drainer](#Drainer) | [Maverick](#Maverick) | [Cursed Soul](#Cursed-Soul) | [Demon](#Demon) |  | [Bait](#Bait) |
+| [Berserker](#Berserker) | [Captain](#Captain) | [Drainer](#Drainer) | [Maverick](#Maverick) | [Cursed Soul](#Cursed-Soul) | [Demon](#Demon) |  | [Bait](#Bait) |
 | [Blackmailer](#Blackmailer) | [Celebrity](#Celebrity) | [Jailor](#Jailor) | [Opportunist](#Opportunist) | [Doomsayer](#Doomsayer) | [Glitch](#Glitch) |  | [Beartrap](#Beartrap) |
 | [Bomber](#Bomber) | [Chameleon](#Chameleon) | [Judge](#Judge) | [Pursuer](#Pursuer) | [Executioner](#Executioner) | [Harbinger](#Harbinger) |  | [Bewilder](#Bewilder) |
 | [Bounty Hunter](#Bounty-Hunter) | [Cleanser](#Cleanser) | [Knight](#Knight) | [Romantic](#Romantic) | [Hacker](#Hacker) | [Hex Master](#Hex-Master) |  | [Bloodlust](#Bloodlust) |
@@ -73,7 +75,7 @@ For a small list of changes made to improve the mod, here's a few:
 | [Disruptor](#Disruptor) | [Grenadier](#Grenadier) |  |  | [Workaholic](#Workaholic) | [Potion Master](#Potion-Master) |  | [Flash](#Flash) |
 | [Eraser](#Eraser) | [Guardian](#Guardian) |  |  |  | [Pyromaniac](#Pyromaniac) |  | [Ghoul](#Ghoul) |
 | [Escapist](#Escapist) | [Imitator](#Imitator) |  |  |  | [Serial Killer](#Serial-Killer) |  | [Gravestone](#Gravestone) |
-| [Fireworker](#Fireworker) | Inquisitor |  |  |  | [Shroud](#Shroud) |  | [Guesser](#Guesser) |
+| [Fireworker](#Fireworker) | [Inquisitor](#Inquisitor) |  |  |  | [Shroud](#Shroud) |  | [Guesser](#Guesser) |
 | [Gangster](#Gangster) | [Lazy Guy](#Lazy-Guy) |  |  |  | [Stalker](#Stalker) |  | [Last Impostor](#Last-Impostor) |
 | [Godfather](#Godfather) | [Lighter](#Lighter) |  |  |  | [Traitor](#Traitor) |  | [Lazy](#Lazy) |
 | [Greedy](#Greedy) | [Lookout](#Lookout) |  |  |  | [Virus](#Virus) |  | [Lovers](#Lovers) |
@@ -89,14 +91,14 @@ For a small list of changes made to improve the mod, here's a few:
 | [Mastermind](#Mastermind) | [Monitor](#Monitor) |  |  |  |  |  | [Overclocked](#Overclocked) |
 | [Mercenary](#Mercenary) | [Mortician](#Mortician) |  |  |  |  |  | [Repairman](#Repairman) |
 | [Miner](#Miner) | [Observer](#Observer) |  |  |  |  |  | [Sleuth](#Sleuth) |
-| [Morphling](#Morphling) | [Oracle](#Oracle) |  |  |  |  |  | Snail |
+| [Morphling](#Morphling) | [Oracle](#Oracle) |  |  |  |  |  | [Snail](#Snail) |
 | [Nemesis](#Nemesis) | [Overseer](#Overseer) |  |  |  |  |  | [Stealer](#Stealer) |
 | [Nightmare](#Nightmare) | [Pacifist](#Pacifist) |  |  |  |  |  | [Stubborn](#Stubborn) |
 | [Ninja](#Ninja) | [President](#President) |  |  |  |  |  | [Swift](#Swift) |
 | [Pitfall](#Pitfall) | [Psychic](#Psychic) |  |  |  |  |  | [Tiebreaker](#Tiebreaker) |
 | [Prosecutor](#Prosecutor) | [Scientist](#Scientist) |  |  |  |  |  | [Torch](#Torch) |
 | [Puppeteer](#Puppeteer) | [Seer](#Seer) |  |  |  |  |  | [Unlucky](#Unlucky) |
-| [Quick Shooter](#Quick-Shooter) | Sentinel |  |  |  |  |  | [VIP](#VIP) |
+| [Quick Shooter](#Quick-Shooter) | [Sentinel](#Sentinel) |  |  |  |  |  | [VIP](#VIP) |
 | [Saboteur](#Saboteur) | [Snitch](#Snitch) |  |  |  |  |  | [Void Ballot](#Void-Ballot) |
 | [Scavenger](#Scavenger) | [Spiritualist](#Spiritualist) |  |  |  |  |  | [Watcher](#Watcher) |
 | [Shapemaster](#Shapemaster) | [Spy](#Spy) |  |  |  |  |  | [Workhorse](#Workhorse) |
@@ -1654,6 +1656,28 @@ The next player to complete that task gets a temporary shield.<br>
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+## Captain
+
+<img align="right" width="" height="200" src="Images/Crewmates/Captain.png">
+
+__Faction__: Crewmate (Power)<br>
+__Base__: Crewmate<br>
+__Ability__: Slow evildoers<br>
+__Indicator/Symbols__: None<br>
+__Win Condition__: Eliminate all Impostors<br>
+__Can Use Pet System__: No<br>
+
+Origin: [Town of Host Enhanced](https://github.com/0xDrMoe/TownofHost-Enhanced)<br>
+
+#### Role Description
+The Captain is a crewmate that slows a random non-crew player down whenever the Captain completes a task.<br>
+All crewmates know who the Captain is, indicated with a star.<br>
+
+If the Captain is exiled, anyone who participated in voting the Captain will have a modifier removed.<br> 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 
 
@@ -2041,6 +2065,28 @@ Optionally, evil roles with a crewmate variant will grant the crewmate variant w
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Inquisitor
+
+<img align="right" width="" height="200" src="Images/Crewmates/Inquisitor.png">
+
+__Faction__: Crewmate (Power)<br>
+__Base__: Impostor<br>
+__Ability__: Gain extra guessing info<br>
+__Indicator/Symbols__: None<br>
+__Win Condition__: Eliminate all Impostors<br>
+__Can Use Pet System__: No<br>
+
+Origin: [Town of Host Enhanced](https://github.com/0xDrMoe/TownofHost-Enhanced)<br>
+
+#### Role Description
+The Inquisitor is a crewmate that receives extra info when a player dies to a guesser role.<br>
+The Inquisitor will be told if a guess was a misfire, and what the guesser tried to guess.<br>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 ## Lazy Guy
@@ -2530,6 +2576,27 @@ To compare alignments, use the command `/cmp playerID-1 playerId-2`.<br>
 
 Neutrals and converted players are considered to be on the same team.<br>
 [Rascal](#Rascal) is considered as an Impostor.<br>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+## Sentinel
+
+<img align="right" width="" height="200" src="Images/Crewmates/Sentinel.png">
+
+__Faction__: Crewmate (Support)<br>
+__Base__: Crewmate<br>
+__Ability__: Protect a player from being exiled<br>
+__Indicator/Symbols__: None<br>
+__Win Condition__: Eliminate all Impostors<br>
+__Can Use Pet System__: No<br>
+
+Origin: [Town of Host Enhanced](https://github.com/0xDrMoe/TownofHost-Enhanced)<br>
+
+#### Role Description
+The Sentinel is a crewmate that functions like an ejection [Medic](#Medic).<br>
+Vote for a player, that player will not be able to be ejected that meeting.<br>
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -5316,6 +5383,23 @@ Origin: [Town of Us Reactivated](https://github.com/eDonnes124/Town-Of-Us-R)<br>
 #### Modifier Description
 Sleuth is a helpful modifier that gives your body reports extra info.<br>
 The info includes the role of the body, and optionally the role of the killer.<br>
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Snail
+
+<img align="right" width="" height="200" src="Images/Modifiers/Snail.png">
+
+__Type__: Harmful (Global)<br>
+__Ability__: Slow speed<br>
+
+
+Origin: Town of Host Refined<br>
+
+#### Modifier Description
+Snail is a modifier that decreases your speed.<br>
 
 
 
