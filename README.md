@@ -47,7 +47,6 @@ For a small list of changes made to improve the mod, here's a few:
   - Old Bomber has been renamed to [Creeper](#Creeper)
 - Completely reworked [Werewolf](#Werewolf) to be like Town of Us Reactivated
   - Old Werewolf has been renamed to [Harbinger](#Harbinger)
-- Percentage system for roles rather than the basic ON/OFF system
 
 # Roles (267)
 | Impostor (68) | Crewmate (59) | Crewmate Killing (15) | Neutral Benign (11) | Neutral Evil (21) | Neutral Killing (27) | Madmate (4) | Modifier (62) |
