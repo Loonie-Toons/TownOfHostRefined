@@ -7,7 +7,7 @@ Other mod credits: [TOHE+](https://github.com/Gurge44/TOHE_PLUS), [Project Lotus
 TOHR is a continuation of [TOH-RE](https://github.com/Loonie-Toons/Re-Edited), utilizing [TOHEN](https://github.com/0xDrMoe/TownofHost-Enhanced) as a base.<br>
 The aim is to uphold the legacy of [TOH-RE](https://github.com/Loonie-Toons/Re-Edited), recognized as one of the top host-only Among Us mods.<br>
 
-The choice of [TOHEN](https://github.com/0xDrMoe/TownofHost-Enhanced) as a base for the sake of efficiency, and as such credit is given.<br>
+The use of [TOHEN](https://github.com/0xDrMoe/TownofHost-Enhanced) as a base is for the sake of efficiency, and as such credit is given.<br>
 Unnecessary changes made in [TOHEN](https://github.com/0xDrMoe/TownofHost-Enhanced) have been reverted.
 
 TOHR, a host-only Among Us mod, is derived from [Town of Host Enhanced](https://github.com/0xDrMoe/TownofHost-Enhanced).<br>
