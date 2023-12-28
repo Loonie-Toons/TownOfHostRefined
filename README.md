@@ -48,7 +48,7 @@ For a small list of changes made to improve the mod, here's a few:
 - Percentage system for roles rather than the basic ON/OFF system
 
 # Roles (263)
-| Impostor (68) | Crewmate (56) | Crewmate Killing (15) | Neutral Benign (11) | Neutral Evil (21) | Neutral Killing (27) | Madmate (4) | Modifier (61) |
+| Impostor (68) | Crewmate (59) | Crewmate Killing (15) | Neutral Benign (11) | Neutral Evil (21) | Neutral Killing (27) | Madmate (4) | Modifier (62) |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | [Agent](#Agent) | [Addict](#Addict) | [Bastion](#Bastion) | [Amnesiac](#Amnesiac) | [Advocate](#Advocate) | [Agitator](#Agitator) | [Convict](#Convict) | [Antidote](#Antidote) |
 | [Anonymous](#Anonymous) | [Alchemist](#Alchemist) | [Bodyguard](#Bodyguard) | [Follower](#Follower) | [Carnivore](#Carnivore) | [Arsonist](#Arsonist) | [Crewpostor](#Crewpostor) | [Autopsy](#Autopsy) |
@@ -89,17 +89,17 @@ For a small list of changes made to improve the mod, here's a few:
 | [Mastermind](#Mastermind) | [Monitor](#Monitor) |  |  |  |  |  | [Overclocked](#Overclocked) |
 | [Mercenary](#Mercenary) | [Mortician](#Mortician) |  |  |  |  |  | [Repairman](#Repairman) |
 | [Miner](#Miner) | [Observer](#Observer) |  |  |  |  |  | [Sleuth](#Sleuth) |
-| [Morphling](#Morphling) | [Oracle](#Oracle) |  |  |  |  |  | [Stealer](#Stealer) |
-| [Nemesis](#Nemesis) | [Overseer](#Overseer) |  |  |  |  |  | [Stubborn](#Stubborn) |
-| [Nightmare](#Nightmare) | [Pacifist](#Pacifist) |  |  |  |  |  | [Swift](#Swift) |
-| [Ninja](#Ninja) | [President](#President) |  |  |  |  |  | [Tiebreaker](#Tiebreaker) |
-| [Pitfall](#Pitfall) | [Psychic](#Psychic) |  |  |  |  |  | [Torch](#Torch) |
-| [Prosecutor](#Prosecutor) | [Scientist](#Scientist) |  |  |  |  |  | [Unlucky](#Unlucky) |
-| [Puppeteer](#Puppeteer) | [Seer](#Seer) |  |  |  |  |  | [VIP](#VIP) |
-| [Quick Shooter](#Quick-Shooter) | Sentinel |  |  |  |  |  | [Void Ballot](#Void-Ballot) |
-| [Saboteur](#Saboteur) | [Snitch](#Snitch) |  |  |  |  |  | [Watcher](#Watcher) |
-| [Scavenger](#Scavenger) | [Spiritualist](#Spiritualist) |  |  |  |  |  | [Workhorse](#Workhorse) |
-| [Shapemaster](#Shapemaster) | [Spy](#Spy) |  |  |  |  |  |  |
+| [Morphling](#Morphling) | [Oracle](#Oracle) |  |  |  |  |  | Snail |
+| [Nemesis](#Nemesis) | [Overseer](#Overseer) |  |  |  |  |  | [Stealer](#Stealer) |
+| [Nightmare](#Nightmare) | [Pacifist](#Pacifist) |  |  |  |  |  | [Stubborn](#Stubborn) |
+| [Ninja](#Ninja) | [President](#President) |  |  |  |  |  | [Swift](#Swift) |
+| [Pitfall](#Pitfall) | [Psychic](#Psychic) |  |  |  |  |  | [Tiebreaker](#Tiebreaker) |
+| [Prosecutor](#Prosecutor) | [Scientist](#Scientist) |  |  |  |  |  | [Torch](#Torch) |
+| [Puppeteer](#Puppeteer) | [Seer](#Seer) |  |  |  |  |  | [Unlucky](#Unlucky) |
+| [Quick Shooter](#Quick-Shooter) | Sentinel |  |  |  |  |  | [VIP](#VIP) |
+| [Saboteur](#Saboteur) | [Snitch](#Snitch) |  |  |  |  |  | [Void Ballot](#Void-Ballot) |
+| [Scavenger](#Scavenger) | [Spiritualist](#Spiritualist) |  |  |  |  |  | [Watcher](#Watcher) |
+| [Shapemaster](#Shapemaster) | [Spy](#Spy) |  |  |  |  |  | [Workhorse](#Workhorse) |
 | [Shapeshifter](#Shapeshifter) | [Super Star](#Super-Star) |  |  |  |  |  |  |
 | [Sniper](#Sniper) | [Swapper](#Swapper) |  |  |  |  |  |  |
 | [Spellcaster](#Spellcaster) | [Task Manager](#Task-Manager) |  |  |  |  |  |  |
@@ -123,41 +123,41 @@ Details about each role will be very brief as they may change at any time.<br>
 
 ### Experimental Impostor Roles
 - Killing Machine
- - Low kill cooldown, can only kill
+   - Low kill cooldown, can only kill
 - Zombie
- - Slow, low kill cooldown, low vision
+   - Slow, low kill cooldown, low vision
 - Butcher
- - Unsupported role
- - Makes like 50 bodies spawn when they kill
- - Does not work correctly for vanilla clients
+   - Unsupported role
+       - Makes like 50 bodies spawn when they kill
+       - Does not work correctly for vanilla clients
 - Hangman
- - Strangle players, removing them from play
+   - Strangle players, removing them from play
 
 ### Experimental Crewmate Roles
 - Admirer
- - Convert any player to the Crewmate side
+   - Convert any player to the Crewmate side
 - Investigator
- - See exact role of target / See whether target is a crewmate role
+   - See exact role of target / See whether target is a crewmate role
 
 ### Experimental Neutral Roles
 - Doppelganger
- - Become who you kill
+   - Become who you kill
 - God
- - Existence known to all, wins at end of game if still alive
+   - Existence known to all, wins at end of game if still alive
 - Spiritcaller
- - Kill players to spawn evils spirit, who help you 
+   - Kill players to spawn evils spirit, who help you 
 - Copycat
- - [Amnesiac](#Amnesiac) but it uses the kill button on a player instead
+   - [Amnesiac](#Amnesiac) but it uses the kill button on a player instead
 
 ### Experimental Modifiers
 - YouTuber
- - Win if you die first
+   - Win if you die first
 - Fool
- - Blocks fixing sabotages
+   - Blocks fixing sabotages
 - Rolebane
- - Erases the killer's role to their role base (Crewmate, Engineer, Scientist, Impostor, Shapeshifter)
+   - Erases the killer's role to their role base (Crewmate, Engineer, Scientist, Impostor, Shapeshifter)
 - Shuffled
- - Vote type is random
+   - Vote type is random
 
 
 
