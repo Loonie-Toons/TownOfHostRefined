@@ -28,17 +28,17 @@ For a small list of changes made to improve the mod, here's a few:
 - Renamed Taskinator to [Unabomber](#Unabomber) (better name choice)
 - Renamed Telecommunication to [Monitor](#Monitor) (shorter name)
 - Reworked min and max Neutral settings
-  - Each Neutral type gets their own min and max settings
+   - Each Neutral type gets their own min and max settings
 - Min and max Madmate settings
-  - This also separates Parasite and Crewpostor from the Neutral Killing counter
+   - This also separates Parasite and Crewpostor from the Neutral Killing counter
 - More features
-  - One being a new neutral mode, which makes Neutral Evil roles not immediately end the game
+   - One being a new neutral mode, which makes Neutral Evil roles not immediately end the game
 - QOL improvements
-  - Role text is now bigger, to match Town of Host
+   - Role text is now bigger, to match Town of Host
 - Removed the old Trickster in favor of the better [Trickster](#Trickster)
-  - This new version of [Trickster](#Trickster) is based off Town of Salem 2
+   - This new version of [Trickster](#Trickster) is based off Town of Salem 2
 - Various bug fixes
-  - An example being that Monarch now works correctly with multiple Monarchs
+   - An example being that Monarch now works correctly with multiple Monarchs
 - Tweaked some roles to be better
   - Pixie was reworked into a Neutral Evil role, and the name was changed to [Advocate](#Advocate) to avoid confusion
 - Completely reworked [Bomber](#Bomber) to be like Town of Us Reactivated
@@ -48,74 +48,74 @@ For a small list of changes made to improve the mod, here's a few:
 - Percentage system for roles rather than the basic ON/OFF system
 
 # Roles (263)
-|          Impostor (68)          |           Crewmate (56)           |       Crewmate Killing (15)       |     Neutral Benign (11)     |         Neutral Evil (21)         |       Neutral Killing (27)      |        Madmate (4)        |          Modifier (61)          |
-|:-------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------:|:---------------------------------:|:-------------------------------:|:-------------------------:|:-------------------------------:|
-|         [Agent](#Agent)         |         [Addict](#Addict)         |        [Bastion](#Bastion)        |    [Amnesiac](#Amnesiac)    |       [Advocate](#Advocate)       |      [Agitator](#Agitator)      |    [Convict](#Convict)    |      [Antidote](#Antidote)      |
-|     [Anonymous](#Anonymous)     |      [Alchemist](#Alchemist)      |      [Bodyguard](#Bodyguard)      |    [Follower](#Follower)    |      [Carnivore](#Carnivore)      |      [Arsonist](#Arsonist)      | [Crewpostor](#Crewpostor) |       [Autopsy](#Autopsy)       |
-|     [Arrogance](#Arrogance)     |         [Aurial](#Aurial)         |       [Crusader](#Crusader)       |       [Hater](#Hater)       |      [Collector](#Collector)      |        [Bandit](#Bandit)        |   [Parasite](#Parasite)   |       [Avenger](#Avenger)       |
-|      [Assassin](#Assassin)      |     [Benefactor](#Benefactor)     |       [Deceiver](#Deceiver)       |      [Lawyer](#Lawyer)      |        [Cultist](#Cultist)        |  [Blood Knight](#Blood-Knight)  |    [Refugee](#Refugee)    |         [Aware](#Aware)         |
-|     [Berserker](#Berserker)     |      [Celebrity](#Celebrity)      |        [Drainer](#Drainer)        |    [Maverick](#Maverick)    |    [Cursed Soul](#Cursed-Soul)    |         [Demon](#Demon)         |                           |          [Bait](#Bait)          |
-|   [Blackmailer](#Blackmailer)   |      [Chameleon](#Chameleon)      |         [Jailor](#Jailor)         | [Opportunist](#Opportunist) |      [Doomsayer](#Doomsayer)      |        [Glitch](#Glitch)        |                           |      [Beartrap](#Beartrap)      |
-|        [Bomber](#Bomber)        |       [Cleanser](#Cleanser)       |          [Judge](#Judge)          |     [Pursuer](#Pursuer)     |    [Executioner](#Executioner)    |     [Harbinger](#Harbinger)     |                           |      [Bewilder](#Bewilder)      |
-| [Bounty Hunter](#Bounty-Hunter) |         [Cleric](#Cleric)         |         [Knight](#Knight)         |    [Romantic](#Romantic)    |         [Hacker](#Hacker)         |    [Hex Master](#Hex-Master)    |                           |     [Bloodlust](#Bloodlust)     |
-|   [Camouflager](#Camouflager)   |        [Coroner](#Coroner)        | [Retributionist](#Retributionist) |      [Shaman](#Shaman)      |       [Innocent](#Innocent)       |      [Huntsman](#Huntsman)      |                           |        [Bloody](#Bloody)        |
-|  [Cantankerous](#Cantankerous)  |         [Deputy](#Deputy)         |        [Reverie](#Reverie)        |   [Unabomber](#Unabomber)   |         [Jester](#Jester)         |    [Illusioner](#Illusioner)    |                           |         [Burst](#Burst)         |
-|  [Chronomancer](#Chronomancer)  |      [Detective](#Detective)      |        [Sheriff](#Sheriff)        |       [Witch](#Witch)       |      [Masochist](#Masochist)      |    [Infectious](#Infectious)    |                           |    [Circumvent](#Circumvent)    |
-|   [Consigliere](#Consigliere)   |       [Dictator](#Dictator)       |      [Trickster](#Trickster)      |                             |        [Phantom](#Phantom)        |        [Jackal](#Jackal)        |                           |        [Clumsy](#Clumsy)        |
-|       [Consort](#Consort)       |         [Doctor](#Doctor)         |        [Veteran](#Veteran)        |                             |         [Pirate](#Pirate)         |          [Jinx](#Jinx)          |                           |     [Consenses](#Consenses)     |
-|    [Councillor](#Councillor)    |       [Enderman](#Enderman)       |      [Vigilante](#Vigilante)      |                             |       [Innocent](#Innocent)       |    [Juggernaut](#Juggernaut)    |                           |         [Cyber](#Cyber)         |
-|       [Creeper](#Creeper)       |       [Engineer](#Engineer)       |        [Warrior](#Warrior)        |                             |  [Revolutionist](#Revolutionist)  |    [Illusioner](#Illusioner)    |                           |      [Democrat](#Democrat)      |
-|   [Cursed Wolf](#Cursed-Wolf)   |         [Enigma](#Enigma)         |                                   |                             |         [Seeker](#Seeker)         |   [Necromancer](#Necromancer)   |                           |      [Diseased](#Diseased)      |
-|       [Dazzler](#Dazzler)       |       [Enlistee](#Enlistee)       |                                   |                             | [Soul Collector](#Soul-Collector) |       [Pelican](#Pelican)       |                           |   [Disregarded](#Disregarded)   |
-|     [Deathpact](#Deathpact)     |         [Escort](#Escort)         |                                   |                             |      [Terrorist](#Terrorist)      |    [Pickpocket](#Pickpocket)    |                           |   [Double Shot](#Double-Shot)   |
-|      [Devourer](#Devourer)      | [Fortune Teller](#Fortune-Teller) |                                   |                             |         [Vector](#Vector)         |      [Poisoner](#Poisoner)      |                           |        [Egoist](#Egoist)        |
-|     [Disperser](#Disperser)     |      [Grenadier](#Grenadier)      |                                   |                             |        [Vulture](#Vulture)        |  [Plaguebearer](#Plaguebearer)  |                           |       [Fragile](#Fragile)       |
-|     [Disruptor](#Disruptor)     |       [Guardian](#Guardian)       |                                   |                             |     [Workaholic](#Workaholic)     | [Potion Master](#Potion-Master) |                           |         [Flash](#Flash)         |
-|        [Eraser](#Eraser)        |       [Imitator](#Imitator)       |                                   |                             |                                   |    [Pyromaniac](#Pyromaniac)    |                           |         [Ghoul](#Ghoul)         |
-|      [Escapist](#Escapist)      |       [Lazy Guy](#Lazy-Guy)       |                                   |                             |                                   | [Serial Killer](#Serial-Killer) |                           |    [Gravestone](#Gravestone)    |
-|    [Fireworker](#Fireworker)    |        [Lighter](#Lighter)        |                                   |                             |                                   |        [Shroud](#Shroud)        |                           |       [Guesser](#Guesser)       |
-|      [Gangster](#Gangster)      |        [Lookout](#Lookout)        |                                   |                             |                                   |       [Stalker](#Stalker)       |                           | [Last Impostor](#Last-Impostor) |
-|     [Godfather](#Godfather)     |         [Luckey](#Luckey)         |                                   |                             |                                   |       [Traitor](#Traitor)       |                           |          [Lazy](#Lazy)          |
-|        [Greedy](#Greedy)        |       [Marshall](#Marshall)       |                                   |                             |                                   |         [Virus](#Virus)         |                           |        [Lovers](#Lovers)        |
-|     [Inhibitor](#Inhibitor)     |          [Mayor](#Mayor)          |                                   |                             |                                   |      [Werewolf](#Werewolf)      |                           |         [Loyal](#Loyal)         |
-|    [Instigator](#Instigator)    |       [Mechanic](#Mechanic)       |                                   |                             |                                   |        [Wraith](#Wraith)        |                           |         [Lucky](#Lucky)         |
-|       [Janitor](#Janitor)       |          [Medic](#Medic)          |                                   |                             |                                   |                                 |                           |       [Madmate](#Madmate)       |
-|      [Kamikaze](#Kamikaze)      |         [Medium](#Medium)         |                                   |                             |                                   |                                 |                           |          [Mare](#Mare)          |
-|     [Kidnapper](#Kidnapper)     |       [Merchant](#Merchant)       |                                   |                             |                                   |                                 |                           |         [Mimic](#Mimic)         |
-|     [Lightning](#Lightning)     |           [Mole](#Mole)           |                                   |                             |                                   |                                 |                           |        [Mystic](#Mystic)        |
-|      [Ludopath](#Ludopath)      |        [Monarch](#Monarch)        |                                   |                             |                                   |                                 |                           |     [Necroview](#Necroview)     |
-|        [Lurker](#Lurker)        |        [Monitor](#Monitor)        |                                   |                             |                                   |                                 |                           |        [Nimble](#Nimble)        |
-|       [Mafioso](#Mafioso)       |      [Mortician](#Mortician)      |                                   |                             |                                   |                                 |                           |     [Oblivious](#Oblivious)     |
-|    [Mastermind](#Mastermind)    |       [Observer](#Observer)       |                                   |                             |                                   |                                 |                           |   [Overclocked](#Overclocked)   |
-|     [Mercenary](#Mercenary)     |         [Oracle](#Oracle)         |                                   |                             |                                   |                                 |                           |     [Repairman](#Repairman)     |
-|         [Miner](#Miner)         |       [Overseer](#Overseer)       |                                   |                             |                                   |                                 |                           |        [Sleuth](#Sleuth)        |
-|     [Morphling](#Morphling)     |       [Pacifist](#Pacifist)       |                                   |                             |                                   |                                 |                           |       [Stealer](#Stealer)       |
-|       [Nemesis](#Nemesis)       |      [President](#President)      |                                   |                             |                                   |                                 |                           |      [Stubborn](#Stubborn)      |
-|     [Nightmare](#Nightmare)     |        [Psychic](#Psychic)        |                                   |                             |                                   |                                 |                           |         [Swift](#Swift)         |
-|         [Ninja](#Ninja)         |      [Scientist](#Scientist)      |                                   |                             |                                   |                                 |                           |    [Tiebreaker](#Tiebreaker)    |
-|       [Pitfall](#Pitfall)       |           [Seer](#Seer)           |                                   |                             |                                   |                                 |                           |         [Torch](#Torch)         |
-|    [Prosecutor](#Prosecutor)    |         [Snitch](#Snitch)         |                                   |                             |                                   |                                 |                           |       [Unlucky](#Unlucky)       |
-|     [Puppeteer](#Puppeteer)     |   [Spiritualist](#Spiritualist)   |                                   |                             |                                   |                                 |                           |           [VIP](#VIP)           |
-| [Quick Shooter](#Quick-Shooter) |            [Spy](#Spy)            |                                   |                             |                                   |                                 |                           |   [Void Ballot](#Void-Ballot)   |
-|      [Saboteur](#Saboteur)      |     [Super Star](#Super-Star)     |                                   |                             |                                   |                                 |                           |       [Watcher](#Watcher)       |
-|     [Scavenger](#Scavenger)     |        [Swapper](#Swapper)        |                                   |                             |                                   |                                 |                           |     [Workhorse](#Workhorse)     |
-|   [Shapemaster](#Shapemaster)   |   [Task Manager](#Task-Manager)   |                                   |                             |                                   |                                 |                           |                                 |
-|  [Shapeshifter](#Shapeshifter)  |   [Time Manager](#Time-Manager)   |                                   |                             |                                   |                                 |                           |                                 |
-|        [Sniper](#Sniper)        |    [Time Master](#Time-Master)    |                                   |                             |                                   |                                 |                           |                                 |
-|   [Spellcaster](#Spellcaster)   |    [Tracefinder](#Tracefinder)    |                                   |                             |                                   |                                 |                           |                                 |
-|  [Soul Catcher](#Soul-Catcher)  |        [Tracker](#Tracker)        |                                   |                             |                                   |                                 |                           |                                 |
-|       [Swooper](#Swooper)       |    [Transporter](#Transporter)    |                                   |                             |                                   |                                 |                           |                                 |
-|   [Telekinetic](#Telekinetic)   |         [Warper](#Warper)         |                                   |                             |                                   |                                 |                           |                                 |
-|    [Time Thief](#Time-Thief)    |        [Witness](#Witness)        |                                   |                             |                                   |                                 |                           |                                 |
-|      [Trapster](#Trapster)      |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|       [Twister](#Twister)       |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|      [Underdog](#Underdog)      |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|    [Undertaker](#Undertaker)    |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|       [Vampire](#Vampire)       |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|    [Vindicator](#Vindicator)    |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|     [Visionary](#Visionary)     |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|       [Warlock](#Warlock)       |                                   |                                   |                             |                                   |                                 |                           |                                 |
-|      [Wildling](#Wildling)      |                                   |                                   |                             |                                   |                                 |                           |                                 |
+| Impostor (68) | Crewmate (56) | Crewmate Killing (15) | Neutral Benign (11) | Neutral Evil (21) | Neutral Killing (27) | Madmate (4) | Modifier (61) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| [Agent](#Agent) | [Addict](#Addict) | [Bastion](#Bastion) | [Amnesiac](#Amnesiac) | [Advocate](#Advocate) | [Agitator](#Agitator) | [Convict](#Convict) | [Antidote](#Antidote) |
+| [Anonymous](#Anonymous) | [Alchemist](#Alchemist) | [Bodyguard](#Bodyguard) | [Follower](#Follower) | [Carnivore](#Carnivore) | [Arsonist](#Arsonist) | [Crewpostor](#Crewpostor) | [Autopsy](#Autopsy) |
+| [Arrogance](#Arrogance) | [Aurial](#Aurial) | [Crusader](#Crusader) | [Hater](#Hater) | [Collector](#Collector) | [Bandit](#Bandit) | [Parasite](#Parasite) | [Avenger](#Avenger) |
+| [Assassin](#Assassin) | [Benefactor](#Benefactor) | [Deceiver](#Deceiver) | [Lawyer](#Lawyer) | [Cultist](#Cultist) | [Blood Knight](#Blood-Knight) | [Refugee](#Refugee) | [Aware](#Aware) |
+| [Berserker](#Berserker) | Captain | [Drainer](#Drainer) | [Maverick](#Maverick) | [Cursed Soul](#Cursed-Soul) | [Demon](#Demon) |  | [Bait](#Bait) |
+| [Blackmailer](#Blackmailer) | [Celebrity](#Celebrity) | [Jailor](#Jailor) | [Opportunist](#Opportunist) | [Doomsayer](#Doomsayer) | [Glitch](#Glitch) |  | [Beartrap](#Beartrap) |
+| [Bomber](#Bomber) | [Chameleon](#Chameleon) | [Judge](#Judge) | [Pursuer](#Pursuer) | [Executioner](#Executioner) | [Harbinger](#Harbinger) |  | [Bewilder](#Bewilder) |
+| [Bounty Hunter](#Bounty-Hunter) | [Cleanser](#Cleanser) | [Knight](#Knight) | [Romantic](#Romantic) | [Hacker](#Hacker) | [Hex Master](#Hex-Master) |  | [Bloodlust](#Bloodlust) |
+| [Camouflager](#Camouflager) | [Cleric](#Cleric) | [Retributionist](#Retributionist) | [Shaman](#Shaman) | [Innocent](#Innocent) | [Huntsman](#Huntsman) |  | [Bloody](#Bloody) |
+| [Cantankerous](#Cantankerous) | [Coroner](#Coroner) | [Reverie](#Reverie) | [Unabomber](#Unabomber) | [Jester](#Jester) | [Illusioner](#Illusioner) |  | [Burst](#Burst) |
+| [Chronomancer](#Chronomancer) | [Deputy](#Deputy) | [Sheriff](#Sheriff) | [Witch](#Witch) | [Masochist](#Masochist) | [Infectious](#Infectious) |  | [Circumvent](#Circumvent) |
+| [Consigliere](#Consigliere) | [Detective](#Detective) | [Trickster](#Trickster) |  | [Phantom](#Phantom) | [Jackal](#Jackal) |  | [Clumsy](#Clumsy) |
+| [Consort](#Consort) | [Dictator](#Dictator) | [Veteran](#Veteran) |  | [Pirate](#Pirate) | [Jinx](#Jinx) |  | [Consenses](#Consenses) |
+| [Councillor](#Councillor) | [Doctor](#Doctor) | [Vigilante](#Vigilante) |  | [Innocent](#Innocent) | [Juggernaut](#Juggernaut) |  | [Cyber](#Cyber) |
+| [Creeper](#Creeper) | [Enderman](#Enderman) | [Warrior](#Warrior) |  | [Revolutionist](#Revolutionist) | [Illusioner](#Illusioner) |  | [Democrat](#Democrat) |
+| [Cursed Wolf](#Cursed-Wolf) | [Engineer](#Engineer) |  |  | [Seeker](#Seeker) | [Necromancer](#Necromancer) |  | [Diseased](#Diseased) |
+| [Dazzler](#Dazzler) | [Enigma](#Enigma) |  |  | [Soul Collector](#Soul-Collector) | [Pelican](#Pelican) |  | [Disregarded](#Disregarded) |
+| [Deathpact](#Deathpact) | [Enlistee](#Enlistee) |  |  | [Terrorist](#Terrorist) | [Pickpocket](#Pickpocket) |  | [Double Shot](#Double-Shot) |
+| [Devourer](#Devourer) | [Escort](#Escort) |  |  | [Vector](#Vector) | [Poisoner](#Poisoner) |  | [Egoist](#Egoist) |
+| [Disperser](#Disperser) | [Fortune Teller](#Fortune-Teller) |  |  | [Vulture](#Vulture) | [Plaguebearer](#Plaguebearer) |  | [Fragile](#Fragile) |
+| [Disruptor](#Disruptor) | [Grenadier](#Grenadier) |  |  | [Workaholic](#Workaholic) | [Potion Master](#Potion-Master) |  | [Flash](#Flash) |
+| [Eraser](#Eraser) | [Guardian](#Guardian) |  |  |  | [Pyromaniac](#Pyromaniac) |  | [Ghoul](#Ghoul) |
+| [Escapist](#Escapist) | [Imitator](#Imitator) |  |  |  | [Serial Killer](#Serial-Killer) |  | [Gravestone](#Gravestone) |
+| [Fireworker](#Fireworker) | Inquisitor |  |  |  | [Shroud](#Shroud) |  | [Guesser](#Guesser) |
+| [Gangster](#Gangster) | [Lazy Guy](#Lazy-Guy) |  |  |  | [Stalker](#Stalker) |  | [Last Impostor](#Last-Impostor) |
+| [Godfather](#Godfather) | [Lighter](#Lighter) |  |  |  | [Traitor](#Traitor) |  | [Lazy](#Lazy) |
+| [Greedy](#Greedy) | [Lookout](#Lookout) |  |  |  | [Virus](#Virus) |  | [Lovers](#Lovers) |
+| [Inhibitor](#Inhibitor) | [Luckey](#Luckey) |  |  |  | [Werewolf](#Werewolf) |  | [Loyal](#Loyal) |
+| [Instigator](#Instigator) | [Marshall](#Marshall) |  |  |  | [Wraith](#Wraith) |  | [Lucky](#Lucky) |
+| [Janitor](#Janitor) | [Mayor](#Mayor) |  |  |  |  |  | [Madmate](#Madmate) |
+| [Kamikaze](#Kamikaze) | [Mechanic](#Mechanic) |  |  |  |  |  | [Mare](#Mare) |
+| [Kidnapper](#Kidnapper) | [Medic](#Medic) |  |  |  |  |  | [Mimic](#Mimic) |
+| [Lightning](#Lightning) | [Medium](#Medium) |  |  |  |  |  | [Mystic](#Mystic) |
+| [Ludopath](#Ludopath) | [Merchant](#Merchant) |  |  |  |  |  | [Necroview](#Necroview) |
+| [Lurker](#Lurker) | [Mole](#Mole) |  |  |  |  |  | [Nimble](#Nimble) |
+| [Mafioso](#Mafioso) | [Monarch](#Monarch) |  |  |  |  |  | [Oblivious](#Oblivious) |
+| [Mastermind](#Mastermind) | [Monitor](#Monitor) |  |  |  |  |  | [Overclocked](#Overclocked) |
+| [Mercenary](#Mercenary) | [Mortician](#Mortician) |  |  |  |  |  | [Repairman](#Repairman) |
+| [Miner](#Miner) | [Observer](#Observer) |  |  |  |  |  | [Sleuth](#Sleuth) |
+| [Morphling](#Morphling) | [Oracle](#Oracle) |  |  |  |  |  | [Stealer](#Stealer) |
+| [Nemesis](#Nemesis) | [Overseer](#Overseer) |  |  |  |  |  | [Stubborn](#Stubborn) |
+| [Nightmare](#Nightmare) | [Pacifist](#Pacifist) |  |  |  |  |  | [Swift](#Swift) |
+| [Ninja](#Ninja) | [President](#President) |  |  |  |  |  | [Tiebreaker](#Tiebreaker) |
+| [Pitfall](#Pitfall) | [Psychic](#Psychic) |  |  |  |  |  | [Torch](#Torch) |
+| [Prosecutor](#Prosecutor) | [Scientist](#Scientist) |  |  |  |  |  | [Unlucky](#Unlucky) |
+| [Puppeteer](#Puppeteer) | [Seer](#Seer) |  |  |  |  |  | [VIP](#VIP) |
+| [Quick Shooter](#Quick-Shooter) | Sentinel |  |  |  |  |  | [Void Ballot](#Void-Ballot) |
+| [Saboteur](#Saboteur) | [Snitch](#Snitch) |  |  |  |  |  | [Watcher](#Watcher) |
+| [Scavenger](#Scavenger) | [Spiritualist](#Spiritualist) |  |  |  |  |  | [Workhorse](#Workhorse) |
+| [Shapemaster](#Shapemaster) | [Spy](#Spy) |  |  |  |  |  |  |
+| [Shapeshifter](#Shapeshifter) | [Super Star](#Super-Star) |  |  |  |  |  |  |
+| [Sniper](#Sniper) | [Swapper](#Swapper) |  |  |  |  |  |  |
+| [Spellcaster](#Spellcaster) | [Task Manager](#Task-Manager) |  |  |  |  |  |  |
+| [Soul Catcher](#Soul-Catcher) | [Time Manager](#Time-Manager) |  |  |  |  |  |  |
+| [Swooper](#Swooper) | [Time Master](#Time-Master) |  |  |  |  |  |  |
+| [Telekinetic](#Telekinetic) | [Tracefinder](#Tracefinder) |  |  |  |  |  |  |
+| [Time Thief](#Time-Thief) | [Tracker](#Tracker) |  |  |  |  |  |  |
+| [Trapster](#Trapster) | [Transporter](#Transporter) |  |  |  |  |  |  |
+| [Twister](#Twister) | [Warper](#Warper) |  |  |  |  |  |  |
+| [Underdog](#Underdog) | [Witness](#Witness) |  |  |  |  |  |  |
+| [Undertaker](#Undertaker) |  |  |  |  |  |  |  |
+| [Vampire](#Vampire) |  |  |  |  |  |  |  |
+| [Vindicator](#Vindicator) |  |  |  |  |  |  |  |
+| [Visionary](#Visionary) |  |  |  |  |  |  |  |
+| [Warlock](#Warlock) |  |  |  |  |  |  |  |
+| [Wildling](#Wildling) |  |  |  |  |  |  |  |
 
 ## Experimental Roles
 Experimental roles are roles that may be unstable and as such, are not recommended.<br>
@@ -123,41 +123,41 @@ Details about each role will be very brief as they may change at any time.<br>
 
 ### Experimental Impostor Roles
 - Killing Machine
-  - Low kill cooldown, can only kill
+ - Low kill cooldown, can only kill
 - Zombie
-  - Slow, low kill cooldown, low vision
+ - Slow, low kill cooldown, low vision
 - Butcher
-  - Unsupported role
-  - Makes like 50 bodies spawn when they kill
-    - Does not work correctly for vanilla clients
+ - Unsupported role
+ - Makes like 50 bodies spawn when they kill
+ - Does not work correctly for vanilla clients
 - Hangman
-  - Strangle players, removing them from play
+ - Strangle players, removing them from play
 
 ### Experimental Crewmate Roles
 - Admirer
-  - Convert any player to the Crewmate side
+ - Convert any player to the Crewmate side
 - Investigator
-  - See exact role of target / See whether target is a crewmate role
+ - See exact role of target / See whether target is a crewmate role
 
 ### Experimental Neutral Roles
 - Doppelganger
-  - Become who you kill
+ - Become who you kill
 - God
-  - Existence known to all, wins at end of game if still alive
+ - Existence known to all, wins at end of game if still alive
 - Spiritcaller
-  - Kill players to spawn evils spirit, who help you 
+ - Kill players to spawn evils spirit, who help you 
 - Copycat
-  - [Amnesiac](#Amnesiac) but it uses the kill button on a player instead
+ - [Amnesiac](#Amnesiac) but it uses the kill button on a player instead
 
 ### Experimental Modifiers
 - YouTuber
-  - Win if you die first
+ - Win if you die first
 - Fool
-  - Blocks fixing sabotages
+ - Blocks fixing sabotages
 - Rolebane
-  - Erases the killer's role to their role base (Crewmate, Engineer, Scientist, Impostor, Shapeshifter)
+ - Erases the killer's role to their role base (Crewmate, Engineer, Scientist, Impostor, Shapeshifter)
 - Shuffled
-  - Vote type is random
+ - Vote type is random
 
 
 
@@ -1601,7 +1601,7 @@ The potions you can get is random.<br>
 To drink them, vent.<br>
 
 ### Potions
-|      Name     |                  Description                  |
+| Name | Description |
 | ------------- | --------------------------------------------- |
 | Water Bottle | Does nothing |
 | Potion of Resistance | Gives the Alchemist a temporary shield that protects them from one kill |
