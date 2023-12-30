@@ -3,6 +3,7 @@
 Mod History: [TOH](https://github.com/tukasa0001/TownOfHost) -> [TONX (TOHE)](https://github.com/KARPED1EM/TownOfNext) -> [TOH-RE](https://github.com/Loonie-Toons/Re-Edited) -> [TOHEN](https://github.com/0xDrMoe/TownofHost-Enhanced) -> [TOHR (this mod)](https://github.com/Loonie-Toons/TownOfHostRefined)<br>
 Other mod credits: [TOHE+](https://github.com/Gurge44/TOHE_PLUS), [Project Lotus](https://github.com/ImaMapleTree/Lotus/), [TOUR](https://github.com/eDonnes124/Town-Of-Us-R), [TOR](https://github.com/TheOtherRolesAU/TheOtherRoles), [Stellar Roles](https://github.com/Mr-Fluuff/StellarRolesAU), [TOHY](https://github.com/Yumenopai/TownOfHost_Y)<br>
 
+This mod is an imposter mod, [Download the true mod TOHE today](https://github.com/0xDrMoe/TownofHost-Enhanced).
 
 TOHR is a continuation of [TOH-RE](https://github.com/Loonie-Toons/Re-Edited), utilizing [TOHEN](https://github.com/0xDrMoe/TownofHost-Enhanced) as a base.<br>
 The aim is to uphold the legacy of [TOH-RE](https://github.com/Loonie-Toons/Re-Edited), recognized as one of the top host-only Among Us mods.<br>
